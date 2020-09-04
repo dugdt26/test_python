@@ -11,15 +11,26 @@ def phanTichSoNguyen(n):
 
     if (len(listNumbers) == 0):
         listNumbers.append(n)
-    return listNumbers
+    
+    size = len(listNumbers)
+    snt = ""
+    for i in range(0, size - 1):
+        snt = snt + str(listNumbers[i]) + " x "
+    snt = snt + str(listNumbers[size-1])
 
-print("Nhập số nguyên dương n =")
-n = int(input())
-listNumbers = phanTichSoNguyen(n)
-size = len(listNumbers)
-snt = ""
-for i in range(0, size - 1):
-    snt = snt + str(listNumbers[i]) + " x "
-snt = snt + str(listNumbers[size-1])
+    print(snt)
 
-print("Kết quả:", n, "=", snt)
+
+
+
+
+
+def main():
+    
+    print("Nhập số nguyên dương n =")
+    n = int(input())
+    phanTichSoNguyen(n)
+
+
+if __name__ == "__main__":
+    main()
