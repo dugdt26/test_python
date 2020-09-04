@@ -27,7 +27,7 @@
 - Namespace trong Python còn gọi là không gian tên, là một hệ thống có một tên duy nhất cho mỗi mọi đối tượng trong Python. Một đối tượng có thể là một biến hoặc một phương thức.
 
 # Q8:  What is PYTHON PATH?
-
+-  là một biến môi trường để thêm các thư mục python sẽ tìm kiếm các mô-đun và gói
 # Q9: What are python modules?
 - Module đề cập đến một file chứa những câu lệnh Python và các định nghĩa
 
